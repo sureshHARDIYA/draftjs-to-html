@@ -248,7 +248,7 @@ export function addInlineStyleMarkup(style: string, content: string): string {
   } else if (style === 'ITALIC') {
     return `<em>${content}</em>`;
   } else if (style === 'UNDERLINE') {
-    return `<ins>${content}</ins>`;
+    return `<u>${content}</u>`;
   } else if (style === 'STRIKETHROUGH') {
     return `<del>${content}</del>`;
   } else if (style === 'CODE') {
